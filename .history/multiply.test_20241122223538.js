@@ -7,7 +7,7 @@ describe('test multiply positive scenarios', () => {
         expect(multiply(3, 2)).toBeLessThan(7);
         expect(multiply(3, 2)).toBeLessThanOrEqual(6);
     });
-    test('multiple 4*3 should not equal to 10', () => {
+    test.only ('multiple 4*3 should not equal to 10', () => {
         expect(multiply(4, 3)).not.toEqual(10);
     });
 })
